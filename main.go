@@ -86,7 +86,7 @@ func main() {
 		}
 		attempt--
 		if num < number {
-			fmt.Println("*Загаданное число больше*") // подсказки 
+			fmt.Println("*Загаданное число больше*") // подсказки
 			fmt.Printf("Осталось попыток: %d", attempt)
 			fmt.Println()
 		} else if num > number {
